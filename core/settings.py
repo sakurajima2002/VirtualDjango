@@ -33,7 +33,18 @@ INSTALLED_APPS = [
     
     'core',
     'blog',
+
+    'tailwind', #Luego python3 manage.py tailwind init
+    'theme',
 ]
+
+#Configuracion Tailwind y luego python3 manage.py tailwind install
+TAILWIND_APP_NAME = 'theme'
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
+
+NPM_BIN_PATH = "/usr/bin/npm"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
