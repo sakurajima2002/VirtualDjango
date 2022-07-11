@@ -1,3 +1,4 @@
 #Para Controlar Versiones
 #pip install  -r reqirements.txt -> instalar
 django==3.2.6
+django-environ==0.4.5
