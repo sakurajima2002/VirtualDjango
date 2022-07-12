@@ -2,4 +2,6 @@
 #pip install  -r reqirements.txt -> instalar
 django==3.2.6
 django-environ==0.4.5
+#python3 manage.py tailwind start -> correr tailwind luego
+#de instalar y configurar totalmente
 django-tailwind==2.2.0
